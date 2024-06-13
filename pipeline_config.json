@@ -1,0 +1,27 @@
+{
+    "mlflow": {
+        "experiment_name": "..",
+        "zenml_tracker_name": ".."
+    },
+    "data": {
+        "current_mode": "s3", 
+        "local_path_n": "..",
+        "local_path": "..",
+        "s3_path": ".."
+},
+    "training": {
+        "batch_size": 4,
+        "epochs": 4,
+        "buffer": 4,
+        "timeperiods": 8
+    },
+    "testing": {
+        "run_test": "True"
+    },
+    "zenml": {
+        "version": "zenml==0.54.0"
+    },
+    "regularization": {
+        "grid_cell_reg": "True"
+    }
+}
